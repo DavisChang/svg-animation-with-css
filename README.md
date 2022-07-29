@@ -6,6 +6,7 @@ Animation SVG Figma using css
 
 1. [Figma, update svg tool - https://www.figma.com/](https://www.figma.com/)
 2. [unDraw, get svg assets - https://undraw.co/](https://undraw.co/)
+3. [Demo Site](https://davischang.github.io/svg-animation-with-css/)
 
 
 ### Figma
