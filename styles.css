@@ -2,3 +2,45 @@ body > div {
   text-align: center;
   margin: 10px;
 }
+
+
+/* Triangles */
+:root {
+  --dark-color: #506fe1ac;
+  --light-color: #bc4fee8b;
+}
+
+svg {
+  cursor: pointer;
+}
+
+#darkGroup {
+  fill: var(--dark-color);
+}
+
+#lightGroup {
+  fill: var(--light-color);
+}
+
+#dark1,
+#light1,
+#dark2 {
+  transition: all 1s ease;
+}
+
+#dark1 {
+  transform: translateX(-100%);
+}
+
+svg:hover #light1 {
+  transform: translateX(20%);
+}
+
+svg:hover #dark2 {
+  transform: translateX(40%);
+  opacity: 0;
+}
+
+svg:hover #dark1 {
+  transform: translateX(0%);
+}
