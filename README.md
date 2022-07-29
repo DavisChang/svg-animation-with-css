@@ -1,5 +1,6 @@
 ## svg-animation-with-css
 
+Animation SVG Figma using css
 
 ### Preparationn
 
@@ -11,4 +12,21 @@
 
 * Triangles SVG
 
-![Figma Triangles SVG](/assets/triangles-figama.png "Figma Triangles SVG")
+![Figma Triangles](/images/triangles-figama.png "Figma Triangles SVG")
+
+Demo Triangles
+
+![Triangles](/images/triangles.gif "Triangles")
+
+* Bicycle SVG
+
+Original Bicycle SVG
+![Original Bicycle SVG](/assets/bicycle-original.svg "Original Bicycle SVG")
+
+Import assets/bicycle-original.svg into Figma then group some part of items, and export assets/bicycle-modify.svg
+
+![Figma Bicycle](/images/bicycle-modify-figama.png "Figma Bicyle")
+
+Demo Bicycle
+
+![Bicyle](/images/bicycle.gif "Bicycle")

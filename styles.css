@@ -3,6 +3,10 @@ body > div {
   margin: 10px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
 
 /* Triangles */
 :root {
@@ -43,4 +47,50 @@ svg:hover #dark2 {
 
 svg:hover #dark1 {
   transform: translateX(0%);
+}
+
+/* Bicycle */
+
+#right-wheel, #left-wheel {
+  animation: wheel 1s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes wheel {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#main {
+  animation: bike 1s ease-in-out infinite alternate;
+  transform-origin: bottom;
+}
+
+@keyframes bike {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(15deg);
+  }
+}
+
+#hair {
+  animation: hair 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes hair {
+  from {
+    transform: translateY(0%) rotateZ(0deg);
+  }
+  to {
+    transform: translateY(15%) rotateZ(10deg);
+  }
 }
